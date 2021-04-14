@@ -1,1 +1,0 @@
-export {ExcelToJson} from './ExcelToJsonComponent';

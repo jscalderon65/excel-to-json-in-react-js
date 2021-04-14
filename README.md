@@ -10,7 +10,12 @@ npm install  excel-to-json-in-react-js
 
 ## Modo de uso
 ---
-_Se necesita pasar por las props del componente, un hook que será el que almacene los valores JSON retornados del archivo de excel escogido._
+_Se necesita pasar por las props del componente, un hook que será el que almacene los valores JSON retornados del archivo de excel escogido e importar en el head del index html de la aplicación el siguiente CDN:_
+
+``` html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.2/xlsx.full.min.js"></script>
+```
+---
 
 ```jsx
 import React,{useState} from 'react';
